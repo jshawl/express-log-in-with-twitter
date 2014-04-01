@@ -1,0 +1,12 @@
+{
+  "name": "express-log-in-with-twitter",
+  "version": "0.0.1",
+  "main": "app.js",
+  "author": "Jesse Shawl",
+  "dependencies": {
+    "express": "^3.5.1",
+    "passport": "^0.2.0",
+    "passport-twitter": "^1.0.2",
+    "ejs": "^1.0.0"
+  }
+}

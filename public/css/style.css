@@ -1,0 +1,50 @@
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif; }
+
+a {
+  color: #00B7FF; }
+
+#moodboar {
+  width: 100%;
+  background: #333; }
+
+img {
+  border: 1px solid #fff;
+  width: 100%; }
+  @media screen and (min-width: 500px) {
+    img {
+      width: 50%; } }
+  @media screen and (min-width: 700px) {
+    img {
+      width: 33.33%; } }
+  @media screen and (min-width: 900px) {
+    img {
+      width: 15.15%; } }
+  @media screen and (min-width: 1200px) {
+    img {
+      width: 20%; } }
+  @media screen and (min-width: 1600px) {
+    img {
+      width: 10%; } }
+
+#filedrag {
+  display: none;
+  font-weight: bold;
+  text-align: center;
+  padding: 1em 0;
+  margin: 1em 0;
+  color: #555;
+  border: 2px dashed #555;
+  border-radius: 7px;
+  cursor: default; }
+  #filedrag.hover {
+    color: #f00;
+    border-color: #f00;
+    border-style: solid;
+    box-shadow: inset 0 3px 4px #888; }
